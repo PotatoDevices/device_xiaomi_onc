@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from onc device
 $(call inherit-product, device/xiaomi/onc/device.mk)
 
-# Inherit some common AEX stuff.
+# Inherit some common Potato stuff.
 $(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
