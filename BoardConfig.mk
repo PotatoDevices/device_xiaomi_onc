@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/xiaomi/onclite
+DEVICE_PATH := device/xiaomi/onc
 
 # Architecture
 TARGET_ARCH := arm64
@@ -60,8 +60,8 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 BOARD_KERNEL_PAGESIZE :=  2048
 BOARD_BOOTIMG_HEADER_VERSION := 1
 BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOTIMG_HEADER_VERSION)
-TARGET_KERNEL_SOURCE := kernel/xiaomi/onclite
-TARGET_KERNEL_CONFIG := onclite-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/onc
+TARGET_KERNEL_CONFIG := onc-perf_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 BOARD_DTBOIMG_PARTITION_SIZE := 8388608
 TARGET_KERNEL_CLANG_COMPILE := true
@@ -71,7 +71,7 @@ TARGET_KERNEL_VERSION := 4.9
 BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := onclite,onc
+TARGET_OTA_ASSERT_DEVICE := onc,onclite
 
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
@@ -147,8 +147,8 @@ DEVICE_MATRIX_FILE   := $(DEVICE_PATH)/compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_onclite
-TARGET_RECOVERY_DEVICE_MODULES := libinit_onclite
+TARGET_INIT_VENDOR_LIB := libinit_onc
+TARGET_RECOVERY_DEVICE_MODULES := libinit_onc
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
@@ -205,4 +205,4 @@ WIFI_AVOID_IFACE_RESET_MAC_CHANGE := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/xiaomi/onclite/BoardConfigVendor.mk
+-include vendor/xiaomi/onc/BoardConfigVendor.mk

@@ -3,7 +3,7 @@ Copyright (C) 2019-2020 The LineageOS Project
   Device configuration for Xiaomi Redmi 7
  =========================================
  
-  The Xiaomi Redmi 7 (codenamed "Onclite") is an 
+  The Xiaomi Redmi 7 (codenamed "onc") is an 
 budget smartphone from Xiaomi.
  
   It was announced and released in April 2019.

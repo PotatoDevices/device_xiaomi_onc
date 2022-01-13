@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_onclite.mk
+    $(LOCAL_DIR)/potato_onc.mk
