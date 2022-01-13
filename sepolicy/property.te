@@ -1,2 +1,2 @@
 # Fingerprint
-type fp_prop, property_type;
+system_public_prop(fp_prop);
