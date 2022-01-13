@@ -34,7 +34,7 @@ TARGET_SCREEN_WIDTH := 720
 
 # Specify that target uses Qualcomm hardware
 PRODUCT_USES_QCOM_HARDWARE := true
-PRODUCT_BOARD_PLATFORM := msm8996
+PRODUCT_BOARD_PLATFORM := msm8953
 
 # Permissions
 PRODUCT_COPY_FILES += \
