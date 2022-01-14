@@ -1,0 +1,10 @@
+[
+  {
+    "repository" : "kernel_xiaomi_onc",
+    "target_path": "kernel/xiaomi/onc"
+  },
+  {
+    "repository" : "vendor_xiaomi_onc",
+    "target_path": "vendor/xiaomi/onc"
+  }
+]
