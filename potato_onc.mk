@@ -22,6 +22,6 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
 PRODUCT_MANUFACTURER := Xiaomi
 
-BUILD_FINGERPRINT :="google/redfin/redfin:12/SQ1A.220105.002/7961164:user/release-keys"
+BUILD_FINGERPRINT :="google/redfin/redfin:12/SQ1A.220205.002/8010174:user/release-keys"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
